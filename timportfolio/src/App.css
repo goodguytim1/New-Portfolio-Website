@@ -1,28 +1,10 @@
-.Navbar {
+.Home-page {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  object-fit: fill;
   align-items: center;
-  height: 85px;
+  height: 87vh;
   width: 100%;
-  background-color: #282c34;
-}
-
-.Logo-container {
-  display: flex;
-  object-fit: contain;
-  height: 30px;
-  width: 30px;
-  border: 2px solid black;
-}
-
-.Button-container button {
-  margin: 4px;
-  padding: 4px;
-}
-
-.Button-container {
-  background-color: #0ACDFF;
-  padding: 4px;
-  border: 2px solid black;
-  border-radius: 10% / 50%;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
 }
