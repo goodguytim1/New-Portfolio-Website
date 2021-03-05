@@ -1,9 +1,9 @@
 import React from 'react'
 import './Navbar.css'
 import {Link} from "react-router-dom"
-import Background from './Tim.jpg';
 
-function Navbar() {
+function Navbar() { 
+
     return (
         <div className="Navbar">
             <div className="Logo-container">
@@ -11,10 +11,9 @@ function Navbar() {
             </div>
             <div className="Button-container">
                 <ul className="Button-nav">
-                    <li><Link to = '/'>Home</Link></li>
-                    <li><Link to = '/about'>About</Link></li>
-                    <li><Link to='/work'>Works</Link></li>
-                    
+                    <li className="Home__link"><Link to = '/'>Home</Link></li>
+                    <li className="About__link"><Link to = '/about'>About</Link></li>
+                    <li className="Works__link"><Link to='/work'>Works</Link></li>
                 </ul>
             </div>
         </div>

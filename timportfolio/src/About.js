@@ -13,7 +13,7 @@ function About() {
                 <div className="Greeting">
                     <h3>Hello!</h3>
                     <p>My name is Tim O'Brien and I am a recent UCF graduate with a Bachelor's in Computer Science. I have managed a lot of projects, and I love to solve problems using web technologies </p>
-                    <p>Please feel free to contact me about any jobs, projects, opportunities, or just to chat.</p>
+                    <p>Please feel free to contact me about any jobs, projects, opportunities, or just to chat using the contact button on the home page.</p>
                 </div>
                 <div className="Skills"> 
                     <h3>Skills</h3>
