@@ -12,8 +12,8 @@ function Navbar() {
             <div className="Button-container">
                 <ul className="Button-nav">
                     <li><Link to = '/'>Home</Link></li>
-                    <li><Link to = '/about'>About Me</Link></li>
-                    <li><Link to='/work'>My Work</Link></li>
+                    <li><Link to = '/about'>About</Link></li>
+                    <li><Link to='/work'>Works</Link></li>
                     
                 </ul>
             </div>
