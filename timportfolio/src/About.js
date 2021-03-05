@@ -4,7 +4,29 @@ import './About.css'
 function About() {
     return (
         <div className="About-container">
-            <h1></h1>
+            <div className="Intro">
+                <h3>About</h3>
+                <h1> Personal Info </h1>
+                <p> Get to know more about me</p>
+            </div>
+            <div className="Context"> 
+                <div className="Greeting">
+                    <h3>Hello!</h3>
+                    <p>My name is Tim O'Brien and I am a recent UCF graduate with a Bachelor's in Computer Science. I have managed a lot of projects, and I love to solve problems using web technologies </p>
+                    <p>Please feel free to contact me about any jobs, projects, opportunities, or just to chat.</p>
+                </div>
+                <div className="Skills"> 
+                    <h3>Skills</h3>
+                    <ul className="Skills__list">
+                        <li className="skill">HTML</li>
+                        <li className="skill">CSS</li>
+                        <li className="skill">Javascript</li>
+                        <li className="skill">React</li>
+                        <li className="skill">Github</li>
+                        <li className="skill">Node</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
