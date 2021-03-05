@@ -14,6 +14,7 @@ function Home() {
   <div className="shadow-overlay"></div>
     <div className="Home-content">
       <div className="Home-content__main">
+        <h3>Hello There</h3>
         <h1>I am Tim O'Brien<br/> I am a web developer</h1>
         <div className="Home-content__buttons">
           <Link to="/contact"><button className="btn">Contact</button></Link>

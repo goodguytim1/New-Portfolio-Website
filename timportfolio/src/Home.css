@@ -19,6 +19,18 @@
     background-color: #111111;
 }
 
+h3 {
+  font-family: 'montserrat-bold', sans-serif;
+    font-size: 1.8rem;
+    color: #59FFA0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    position: relative;
+    padding-left: 80px;
+    margin-left: -30px;
+    margin-bottom: 0.6rem;
+}
+
 .shadow-overlay {
   position: absolute;
   top: 0;
