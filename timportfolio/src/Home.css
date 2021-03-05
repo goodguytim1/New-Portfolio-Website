@@ -88,6 +88,7 @@ a {
     transition: all 0.5s ease-in-out;
     background: transparent !important;
     height: 54px;
+    cursor: pointer;
 }
 div {
   margin: 0;
