@@ -18,7 +18,7 @@ function Home() {
         <h1>I am Tim O'Brien<br/> I am a web developer</h1>
         <div className="Home-content__buttons">
           <Link to="/contact"><button className="btn">Contact</button></Link>
-          <button className="btn">Resume</button>
+          <Link to={process.env.PUBLIC_URL + "/Tim's Resume.pdf" } target="_blank"><button className="btn"><a ></a>Resume</button></Link>
         </div>
       </div>  
     </div>
