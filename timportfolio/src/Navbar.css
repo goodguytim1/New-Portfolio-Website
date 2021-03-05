@@ -5,24 +5,74 @@
     height: 13vh;
     width: 100%;
     background-color: #282c34;
+    z-index: 10;
   }
   
   .Logo-container {
-    display: flex;
-    object-fit: contain;
-    height: 30px;
-    width: 30px;
-    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50px;
+    top: 6%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 501;
+  }
+
+  .Logo-container a {
+    display: block;
+    margin: 9px 0 0 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 80px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
   
+  .Logo-container img {
+    object-fit: fill ;
+    z-index: 10;
+  }
   .Button-container button {
     margin: 4px;
     padding: 4px;
   }
   
   .Button-container {
-    background-color: #0ACDFF;
-    padding: 4px;
-    border: 2px solid black;
-    border-radius: 10% / 50%;
+    font-family: 'montserrat-bold', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    position: absolute;
+    top: 9px;
+    right: 50px;
+    z-index: 10;
   }
+
+  .Button-nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    height: 72px;
+  }
+
+  .Button-nav li {
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 2rem;
+}
+
+.Button-nav li a {
+  display: block;
+  line-height: 72px;
+  color: #ffffff;
+  text-decoration: none;
+}
