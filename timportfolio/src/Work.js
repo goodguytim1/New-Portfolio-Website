@@ -7,7 +7,7 @@ function Work() {
             <div className="Works__intro">
                 <h3>Works</h3>
                 <h1>Latest Projects.</h1>
-                <p>Here you can find some of the projects I worked on recently</p>
+                <p>Here you can find some of the projects I worked on recently:</p>
             </div>
             <div className="Works__projects">
                 <div className="container">
@@ -17,7 +17,7 @@ function Work() {
                         </div>
                         <h3 className="project-title">Senior Design: Cloud Tracking V2 for Orlando Utilities Commission (OUC) </h3>
                         <p className="project-description"><span>I was the project manager of 8 UCF students who worked on a cloud tracking system that would help the OUC predict solar panel power output.
-                        <br/> <br/> I can't share the live version or the code due to privacy concerns, but please watch my teams short presentation if you would like to know more and feel free to use the timestamps to navigate.</span></p>
+                        <br/> <br/> I can't share the live version or the code due to privacy concerns, but please watch my team's short presentation if you would like to know more and feel free to use the timestamps to navigate.</span></p>
                         <div className="project-actions">
                             <a href="https://youtu.be/lSzXlH8OF40" target="_blank"><button className="project-btn">See Presentation</button></a>
                         </div>
@@ -27,7 +27,7 @@ function Work() {
                             <img src={process.env.PUBLIC_URL + '/Melbourne.png'} alt=""/>
                         </div>
                         <h3 className="project-title">Point Cloud Rendering of Melbourne</h3>
-                        <p className="project-description"><span>I was the project manager of 12 UCF students who worked to create a 3d point cloud rendering of the city of melbourne in observable notebooks.<br/> 
+                        <p className="project-description"><span>I was the project manager of 12 UCF students who worked to create a 3D point cloud rendering of the city of Melbourne in observable notebooks.<br/> 
                         <br/>Check out the observable notebook we made below!<br/> <br/></span></p>
                         <div className="project-actions">
                             <a href="https://observablehq.com/d/26f8bf1c411a72ab" target="_blank"><button className="project-btn">See Observable</button></a>

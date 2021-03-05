@@ -22,7 +22,7 @@
 h3 {
   font-family: 'montserrat-bold', sans-serif;
     font-size: 1.8rem;
-    color: #59FFA0;
+    color: #EFCB68;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     position: relative;
@@ -80,7 +80,7 @@ a {
 .Home-content__buttons .btn {
   display: block;
     width: 210px;
-    border-color: #59FFA0;
+    border-color: #EFCB68;
     color: #ffffff;
     margin: 1.5rem 0 0 0;
     letter-spacing: 0.25rem;
