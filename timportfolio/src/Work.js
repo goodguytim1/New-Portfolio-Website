@@ -9,6 +9,7 @@ function Work() {
                 <h1>Latest Projects.</h1>
                 <p>Here you can find some of the projects I worked on recently:</p>
             </div>
+            <hr class="solid"></hr>
             <div className="Works__projects">
                 <div className="container">
                     <div className="project">

@@ -7,7 +7,19 @@
     position: relative;
     text-align: center;
 }
-.About-container h1 {
+
+
+.About-container .Intro h1 {
+    color: #0d0a0b;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 1.8rem;
+    letter-spacing: -0.1rem;
+    font-family: 'librebaskerville-bold', serif;
+    font-size: 4.8rem;
+    line-height: 1.375;
+    margin-top: 0;
     margin: 0;
 }
 

@@ -6,9 +6,10 @@ function About() {
         <div className="About-container">
             <div className="Intro">
                 <h3>About</h3>
-                <h1> Personal Info.</h1>
-                <p> Get To Know More About Me:</p>
+                <h1> Tim O'Brien.</h1>
+                <p className="lead"> Get To Know More About Me:</p>
             </div>
+            <hr class="solid"></hr>
             <div className="Context"> 
                 <div className="Greeting">
                     <h3>Hello!</h3>
@@ -16,14 +17,19 @@ function About() {
                     <p>Please feel free to contact me about any jobs, projects, opportunities, or just to chat using the contact button on the home page.</p>
                 </div>
                 <div className="Skills"> 
-                    <h3>Skills</h3>
+                    <h3>Fun Facts</h3>
                     <ul className="Skills__list">
-                        <li className="skill">HTML</li>
-                        <li className="skill">CSS</li>
-                        <li className="skill">Javascript</li>
-                        <li className="skill">React</li>
-                        <li className="skill">Github</li>
-                        <li className="skill">Node</li>
+                        <li className="skill">I am 22</li>
+                        <li className="skill">I am married</li>
+                        <li className="skill">I can play the trumpet</li>
+                        <li className="skill">I played lacrosse for UCF</li>
+                        <li className="skill">I love ping pong</li>
+                        <li className="skill">I am a Black Belt</li>
+                        
+                        
+                        
+                        
+                        
                     </ul>
                 </div>
             </div>
