@@ -32,6 +32,15 @@
     text-rendering: optimizeLegibility;
 }
 
+.Works__divide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Works__divide h3 {
+    color: #B2AA8E;
+}
+
 .Works__projects {
     margin-top: 4rem;
     text-align: center;
