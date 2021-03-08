@@ -35,7 +35,7 @@ function Work() {
                         </div>
                         <h3 className="project-title">Senior Design: Cloud Tracking V2 for Orlando Utilities Commission (OUC) </h3>
                         <p className="project-description"><span>I was the project manager of 8 UCF students who worked on a cloud tracking system that would help the OUC predict solar panel power output.
-                        <br/> <br/> My main role as a developer was redesign the site layout and UI, as well as ensure all of the pieces of the project connected.
+                        <br/> <br/> My main role as a developer was redesign the site layout and UI, as well as ensure all of the pieces of the project connected.np
                         <br/> <br/> I can't share the live version or the code due to privacy concerns, but please watch my team's short presentation if you would like to know more and feel free to use the timestamps to navigate.</span></p>
                         <div className="project-actions">
                             <a href="https://youtu.be/lSzXlH8OF40" target="_blank"><button className="project-btn">See Presentation</button></a>
