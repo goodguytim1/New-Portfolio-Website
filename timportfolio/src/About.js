@@ -17,14 +17,14 @@ function About() {
                     <p>If you are looking for someone who is going to give it his all, then I'm your guy.</p>
                 </div>
                 <div className="Skills"> 
-                    <h3>Fun Facts</h3>
+                    <h3>Attributes</h3>
                     <ul className="Skills__list">
-                        <li className="skill">I am 22</li>
-                        <li className="skill">I am married</li>
-                        <li className="skill">I can play the trumpet</li>
-                        <li className="skill">I played lacrosse for UCF</li>
-                        <li className="skill">I love ping pong</li>
-                        <li className="skill">I am a Black Belt</li>
+                        <li className="skill">Age: 22</li>
+                        <li className="skill">Status: Married</li>
+                        <li className="skill">Instrument: Jazz Trumpet</li>
+                        <li className="skill">Sport: UCF Lacrosse</li>
+                        <li className="skill">Game: Table Tennis</li>
+                        <li className="skill">Achievment: Tang Soo Do Black Belt</li>
                     </ul>
                 </div>
             </div>
