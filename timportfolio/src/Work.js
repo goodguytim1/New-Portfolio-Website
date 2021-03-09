@@ -4,6 +4,9 @@ import {useSpring, animated} from 'react-spring';
 
 function Work() {
     const props = useSpring({opacity:1, from: {opacity:0}});
+    let styleGreen= {
+        backgroundColor: 'green'
+      };
     return (
         <animated.div style={props} className="Works">
             <div className="Works__intro">
@@ -23,7 +26,7 @@ function Work() {
                             <img src={process.env.PUBLIC_URL + '/chrome-extension.png'} alt=""/>
                         </div>
                         <h3 className="project-title">Sunshine Activity Planner App </h3>
-                        <a href="https://github.com/goodguytim1/sunshine-chrome-extension/tree/master/my_solution" target="_blank"><button className="project-btn">View Code on Github</button></a>
+                        <a href="https://github.com/goodguytim1/sunshine-chrome-extension/tree/master/my_solution" target="_blank"><button style={styleGreen} className="project-btn">View Code on Github</button></a>
                         <p className="project-description"><span> Available on the chrome store for download on any desktop.  Add tasks to complete throughout your day, link sites to read for later, check them off, or remove them, and watch as your progress bar goes to 100%!
                         <br/> <br/> I built this using basic html, css, and js along with some chrome dev tools: storage, tabs, and contextMenus.  <br/> <br/> Please give it a quick download from the chrome web store linked below!</span></p>
                         <div className="project-actions">
@@ -49,7 +52,7 @@ function Work() {
                             <img src={process.env.PUBLIC_URL + "/AmazonClone.png"} alt=""/>
                         </div>
                         <h3 className="project-title">Amazon Cart Clone</h3>
-                        <a href="https://github.com/goodguytim1/Amazon-Cart-Clone/tree/master/amazon-cart" target="_blank"><button className="project-btn">View Code on Github</button></a>
+                        <a href="https://github.com/goodguytim1/Amazon-Cart-Clone/tree/master/amazon-cart" target="_blank"><button style={styleGreen} className="project-btn">View Code on Github</button></a>
                         <p className="project-description"><span>React clone of an Amazon Cart at checkout. <br/> <br/> Change the quantities and delete items to watch your total price change.<br/> <br/> Click below to see it hosted!</span></p>
                         <div className="project-actions">
                             <a href="https://romantic-payne-adfef4.netlify.app/" target="_blank"><button className="project-btn">See Live</button></a>
@@ -73,7 +76,7 @@ function Work() {
                             <img src={process.env.PUBLIC_URL + "/HuluClone.png"} alt=""/>
                         </div>
                         <h3 className="project-title">Hulu Clone</h3>
-                        <a href="https://github.com/goodguytim1/hulu-clone/tree/master/hulu-clone" target="_blank"><button className="project-btn">View Code on Github</button></a>
+                        <a href="https://github.com/goodguytim1/hulu-clone/tree/master/hulu-clone" target="_blank"><button style={styleGreen} className="project-btn">View Code on Github</button></a>
                         <p className="project-description"><span>React clone of Hulu movie categories. <br/>  <br/> Movies are pulled from the The Movie Data Base (tmdb). <br/> Select categories to filter by.  <br/> <br/> Click below to see it hosted!</span></p>
                         <div className="project-actions">
                             <a href="https://huluclone-c3a6f.web.app/" target="_blank"><button className="project-btn">See Live</button></a>
@@ -84,7 +87,7 @@ function Work() {
                             <img src={process.env.PUBLIC_URL + "/Comicality.png"} alt=""/>
                         </div>
                         <h3 className="project-title">Comicality</h3>
-                        <a href="https://github.com/E1den/chucky_cheesers" target="_blank"><button className="project-btn">View Code on Github</button></a>
+                        <a href="https://github.com/E1den/chucky_cheesers" target="_blank"><button style={styleGreen} className="project-btn">View Code on Github</button></a>
                         <p className="project-description"><span>This was the first project I ever managed, and I worked with a group of 5 students. <br/>  <br/> We used basic html, css, and javascript with SQL for backend.  My main role as a dev was to use a JS library called Konva to help with the in box editing.<br/> <br/> This is no longer hosted, but click below to watch the tutorial!</span></p>
                         <div className="project-actions">
                             <a href="https://youtu.be/Ic4dasUat6Y" target="_blank"><button className="project-btn">Watch Tutorial</button></a>
