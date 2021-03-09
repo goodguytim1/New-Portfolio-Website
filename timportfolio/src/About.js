@@ -11,7 +11,7 @@ function About() {
                 <h1> Tim O'Brien.</h1>
                 <p className="lead"> Get To Know More About Me:</p>
             </div>
-            <hr class="solid"></hr>
+            <hr className="solid"></hr>
             <div className="Context"> 
                 <div className="Greeting">
                     <h3>Hello!</h3>

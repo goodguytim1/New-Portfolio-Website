@@ -15,7 +15,7 @@ function Work() {
                     <h3>School Projects Managed</h3>
                 </div>
             </div>
-            <hr class="solid"></hr>
+            <hr className="solid"></hr>
             <div className="Works__projects">
                 <div className="container">
                     <div className="project">
