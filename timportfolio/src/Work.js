@@ -1,9 +1,11 @@
-import React from 'react'
-import './Work.css'
+import React from 'react';
+import './Work.css';
+import {useSpring, animated} from 'react-spring';
 
 function Work() {
+    const props = useSpring({opacity:1, from: {opacity:0}});
     return (
-        <div className="Works">
+        <animated.div style={props} className="Works">
             <div className="Works__intro">
                 <h3>Works</h3>
                 <h1>Latest Projects.</h1>
@@ -92,7 +94,7 @@ function Work() {
                     
                 </div>
             </div>
-        </div>
+        </animated.div>
     )
 }
 

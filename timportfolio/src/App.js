@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Work from './Work';
-import Contact from './Contact'
+import Contact from './Contact';
 
 
 function App() {

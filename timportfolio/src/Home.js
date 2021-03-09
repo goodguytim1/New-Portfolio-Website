@@ -1,5 +1,6 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
+import {useSpring, animated} from 'react-spring';
 import {Link} from 'react-router-dom'
 
 function Home() {
@@ -8,8 +9,9 @@ function Home() {
     //     background: `url(${Background})`,
         
     //   }
+    const props = useSpring({opacity:1, from: {opacity:0}});
     return (
-<div className="Home-page">
+<animated.div style={props} className="Home-page">
   <div className="overlay"> </div>
   <div className="shadow-overlay"></div>
     <div className="Home-content">
@@ -22,7 +24,7 @@ function Home() {
         </div>
       </div>  
     </div>
-</div>
+</animated.div>
     )
 }
 

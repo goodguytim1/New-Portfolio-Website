@@ -1,9 +1,11 @@
 import React from 'react'
-import './About.css'
+import './About.css';
+import {useSpring, animated} from 'react-spring';
 
 function About() {
+    const props = useSpring({opacity:1, from: {opacity:0}});
     return (
-        <div className="About-container">
+        <animated.div style={props}className="About-container">
             <div className="Intro">
                 <h3>About</h3>
                 <h1> Tim O'Brien.</h1>
@@ -28,7 +30,7 @@ function About() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </animated.div>
     )
 }
 
