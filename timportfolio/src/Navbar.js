@@ -30,10 +30,10 @@ function Navbar() {
                 </div>
             </div>}
                         {matches.medium &&             <div className="Navbar__container">
-                <div className="Logo-container">
+                {/* <div className="Logo-container">
                     <Link to = '/'><img id="logo" src={"http://cdn.shopify.com/s/files/1/1816/1199/products/MBTA_T_Logo_Green_MAGNET_grande.jpg?v=1494006530"} alt=""/></Link>
-                </div>
-                <div className="Button-container">
+                </div> */}
+                <div style={smallStyle} className="Button-container">
                     <ul className="Button-nav">
                         <li className="Home__link"><Link to = '/'>Home</Link></li>
                         <li className="About__link"><Link to = '/about'>About</Link></li>
